@@ -7,15 +7,6 @@ packages:
   gitUrl: https://github.com/ArtiKhareIBM
   gitUsername: ArtiKhareIBM
   gitBranch: main
-services:
-- serviceName: project.testgithub1205.integrations:testpackage
-  packages:
-  - name: TestGithub1205Project
-    version: "1.0"
-- serviceName: new_folder:new_flowservice
-  packages:
-  - name: TestGithub1205Project
-    version: "1.0"
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
